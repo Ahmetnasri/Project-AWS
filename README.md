@@ -38,3 +38,11 @@ This project demonstrates how to use **Terraform** to provision an **AWS EC2 ins
 1. **Initialize Terraform:**
 ```bash
 terraform init
+
+1. **Review the execution plan:**
+```bash
+terraform plan
+
+1. **Apply the configuration:**
+```bash
+terraform apply
