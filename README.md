@@ -36,13 +36,19 @@ This project demonstrates how to use **Terraform** to provision an **AWS EC2 ins
 > - Replace the `vpc_id` in the security group block with a valid VPC ID from your AWS account
 
 1. **Initialize Terraform:**
-```bash
-terraform init
 
-1. **Review the execution plan:**
-```bash
-terraform plan
+    ```bash
+    terraform init
+    ```
 
-1. **Apply the configuration:**
-```bash
-terraform apply
+2. **Review the execution plan:**
+
+    ```bash
+    terraform plan
+    ```
+
+3. **Apply the configuration:**
+
+    ```bash
+    terraform apply
+    ```
