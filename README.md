@@ -49,7 +49,7 @@ This configuration expects the following variables:
 | `aws_region`     | AWS region for resources              | `us-east-1`         |
 | `s3_bucket_name` | Name of the S3 bucket (must be unique)| `my-static-website` |
 
-You can define them in a `terraform.tfvars` file:
+You can define them in a `variables.tf` file:
 
 ```hcl
 aws_region     = "us-east-1"
