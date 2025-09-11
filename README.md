@@ -62,8 +62,9 @@ s3_bucket_name = "my-unique-static-site-123"
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/your-username/s3-static-site-terraform.git
-   cd s3-static-site-terraform
+   git clone git@github.com:Ahmetnasri/Project-AWS.git
+   cd Project-AWS
+   git checkout S3
    ```
 
 2. **Initialize Terraform**
@@ -83,7 +84,7 @@ s3_bucket_name = "my-unique-static-site-123"
 
 5. **Apply the configuration**
    ```bash
-   terraform apply -auto-approve
+   terraform apply
    ```
 
 ---
