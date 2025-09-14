@@ -1,6 +1,6 @@
 # 🚀 AWS S3 Static Website with CloudFront (Terraform)
 
-This repository contains Terraform code to provision a **static website hosted on AWS S3** with **public access**, **error handling**, and **CloudFront CDN distribution** for global delivery.
+This repository contains Terraform code to provision a **static website hosted on AWS S3** with **public access**, and **CloudFront CDN distribution** for global delivery.
 
 ---
 
