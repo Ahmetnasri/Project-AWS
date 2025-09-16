@@ -34,7 +34,7 @@ This project demonstrates how to use **Terraform** to provision an **AWS EC2 ins
 > - AWS CLI configured with appropriate IAM credentials
 > - Terraform installed (`>= 1.0`)
 > - Replace the `vpc_id` in the security group block with a valid VPC ID from your AWS account
-> - Make sure that `ami` in the `variable "ec2_ami"` is correct and aligns with the instance type you want to create and its region
+> - Make sure that the variable `ec2_ami` in the `variables.tf` is correct and aligns with the instance type you want to create and its region
 
 1. **Initialize Terraform:**
 
