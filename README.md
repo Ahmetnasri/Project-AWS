@@ -53,3 +53,8 @@ This project demonstrates how to use **Terraform** to provision an **AWS EC2 ins
     ```bash
     terraform apply
     ```
+4. **Destroy the configuration:**
+
+    ```bash
+    terraform destroy
+    ```
