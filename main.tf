@@ -1,6 +1,6 @@
 provider "aws" {
     alias  = "central"
-  region = "eu-central-1"
+  region = var.aws_region
 }
 
 # Generate a key pair
@@ -23,8 +23,8 @@ resource "local_file" "private_key" {
 }
 
 resource "aws_instance" "web_test" {
-  ami           = "ami-0af9b40b1a16fe700"
-  instance_type = "t2.micro"
+  ami           = var.ec2_ami
+  instance_type = var.instance_type
   key_name      = aws_key_pair.deployer.key_name
 }
 
