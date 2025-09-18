@@ -30,7 +30,7 @@ resource "aws_instance" "web_test" {
 
 resource "aws_security_group" "ssh_access" {
   name   = "allow_ssh"
-  vpc_id = "vpc-093f63f55e5487353" # Replace with your VPC ID
+  vpc_id = var.vpc_id # Replace with your VPC ID
 
   ingress {
     from_port   = 22
